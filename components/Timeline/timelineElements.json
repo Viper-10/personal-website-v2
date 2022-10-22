@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "title": "Frontend Developer Intern",
+    "workplace": "DevRev",
+    "location": "- Chennai, Tamil Nadu",
+    "date": "September 2022 - Present",
+    "description": "Working on improving the UX and UI of DevRev CRM.",
+    "type": "work"
+  },
+  {
+    "id": 1,
+    "title": "Summer Intern",
+    "workplace": "Zoho Corporation",
+    "location": "- Erode, Tamil Nadu",
+    "description": "Built a full stack bank application web app using Jax-rs and Angular including OOPS and Multi-threading.",
+    "stack": ["Jax-rs", "java", "Angular"],
+    "date": "May 2022 - June 2022",
+    "type": "work"
+  },
+  {
+    "id": 2,
+    "title": "Frontend Developer",
+    "workplace": "Janus Softwares",
+    "location": "- Thane, Maharashtra(Remote)",
+    "date": "March 2022 - June 2022",
+    "bulletpoints": [
+      "Worked on a DeFi web3 finance website.",
+      "Created responsive and reusable components.",
+      "Fixed 70+ bugs and improved the performance of the website.",
+      "Developed 4 features that are actively used on the website.",
+      "Included libraries such as charts.js, ether.js, chakra-ui."
+    ],
+    "stack": [
+      "React js",
+      "chakra-ui",
+      "styled-components",
+      "charts js",
+      "ether js"
+    ],
+    "type": "work"
+  },
+  {
+    "id": 3,
+    "title": "BE Computer Science",
+    "workplace": "Kumaraguru College of Technology",
+    "location": "- Coimbatore, Tamil Nadu",
+    "description": "At present in my 4th year with a CGPA of 9.38 out of 10.",
+    "date": "September 2019",
+    "type": "school"
+  },
+  {
+    "id": 4,
+    "title": "12th Grade",
+    "workplace": "Amrita Vidyalayam",
+    "location": "Coimbatore, Tamil Nadu",
+    "date": "June 2018 - March 2019",
+    "type": "school"
+  },
+  {
+    "id": 5,
+    "title": "10th Grade",
+    "workplace": "Amrita Vidyalayam",
+    "location": "Coimbatore, Tamil Nadu",
+    "date": "June 2016 - March 2017",
+    "type": "school"
+  }
+]

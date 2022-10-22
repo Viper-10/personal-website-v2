@@ -1,0 +1,52 @@
+.accordion__item {
+  margin-bottom: 4px;
+}
+.accordion__button {
+  cursor: pointer;
+  padding: 18px;
+  text-align: left;
+  background-color: var(--primary-dark-color);
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+}
+@media (min-width: 1024px) {
+  .accordion__button:hover {
+    background-color: rgba(38, 36, 36);
+  }
+  .cyan-on-hover:hover {
+    color: rgb(21, 247, 183);
+  }
+}
+.accordion__button:active {
+  background-color: var(--secondary-dark-color);
+}
+.cyan-on-hover:active {
+  color: rgb(21, 247, 183);
+}
+.cyan-on-hover:active + .cyan-on-hover {
+  color: rgb(21, 247, 183);
+}
+
+.accordion__panel {
+  background-color: var(--primary-dark-color);
+}
+.accordion-panel-content {
+  padding: 1rem 2rem;
+  background-color: var(--secondary-dark-color);
+}
+.accordion-panel-heading {
+  font-size: 16px;
+  color: #9ca3af;
+  background-color: var(--secondary-dark-color);
+}
+.accordion-panel-text {
+  background-color: var(--secondary-dark-color);
+  font-size: 20px;
+}
+.cyan-on-hover {
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+}

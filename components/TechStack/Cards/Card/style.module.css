@@ -1,0 +1,43 @@
+.card {
+  background: var(--primary-dark-color);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 1.5rem;
+  box-shadow: 6px 4px 0px 0px rgba(0, 0, 0, 0.8);
+  width: 250px;
+  margin-inline: auto;
+}
+.card-title {
+  font-style: italic;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  color: white;
+}
+.card-description {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.4em;
+  margin-block: 1rem;
+  font-weight: bold;
+}
+
+.glow {
+  animation: glow 4s infinite cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@keyframes glow {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: #33f3c3;
+  }
+
+  100% {
+    color: white;
+  }
+}

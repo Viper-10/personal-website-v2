@@ -1,0 +1,32 @@
+[
+  {
+    "network": "Google",
+    "username": "priyadharshanbeepee@gmail.com",
+    "url": "mailto:priyadharshanbeepee@gmail.com",
+    "faIcon": "fab fa-google"
+  },
+  {
+    "network": "LinkedIn",
+    "username": "Priyadharshan Ravichandran",
+    "url": "https://www.linkedin.com/in/priyadharshan-ravichandran-viper10/",
+    "faIcon": "fab fa-linkedin-in"
+  },
+  {
+    "network": "GitHub",
+    "username": "Viper-10",
+    "url": "https://github.com/Viper-10",
+    "faIcon": "fab fa-github"
+  },
+  {
+    "network": "Discord",
+    "username": "Viper-10",
+    "url": "https://discord.com/users/Viper-10",
+    "faIcon": "fab fa-discord"
+  },
+  {
+    "network": "Instagram",
+    "username": "priyadharshan_23",
+    "url": "https://www.instagram.com/priyadharshan_23/",
+    "faIcon": "fab fa-instagram"
+  }
+]

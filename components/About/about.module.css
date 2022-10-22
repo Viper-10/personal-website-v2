@@ -1,0 +1,61 @@
+.about {
+  padding: 1rem;
+  margin-top: 3rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-inline: auto;
+  max-width: 1000px;
+}
+.main-heading {
+  font-size: 2.25rem;
+  font-family: "Ink Free", "Roboto Mono", Times, serif;
+  padding-inline: 1rem;
+}
+.about p {
+  font-size: 1rem;
+  line-height: 1.6em;
+}
+.description {
+  padding: 1rem;
+}
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-flex {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+@media (max-width: 1024px) {
+  .about {
+    max-width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    font-size: 1rem;
+    margin-top: 100px;
+  }
+
+  .description {
+    font-weight: 600;
+  }
+  .my-name {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .profile-flex {
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .profile-flex > * {
+    flex: 1;
+  }
+}

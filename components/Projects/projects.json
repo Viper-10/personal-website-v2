@@ -1,0 +1,15 @@
+[
+  {
+    "name": "QuoteAway",
+    "category": "Full stack web application",
+    "link": "https://quoteaway.herokuapp.com/#/",
+    "description": "QuoteAway is a social media website designed for users to share their quotes and read quotes from others. QuoteAway is 100% built from scratch. The website allows user to create an account and maintain their list of quotes and their profile. Other quotes on the platform appear on the home feed.",
+    "stack": "React, Spring boot, MySQL, Spring data JPA"
+  },
+  {
+    "name": "Bank Application",
+    "link": "https://github.com/Viper-10/Bank-application",
+    "description": "A full stack web application that imitates bank operations such as deposit, withdraw, transfer and balance enquiry, fixed deposit and loans. Involves multi threading concepts for EMI payment and interest calculation.",
+    "stack": "Jax-rs, Angular, MySQL, JDBC"
+  }
+]

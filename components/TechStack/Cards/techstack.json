@@ -1,0 +1,17 @@
+[
+  {
+    "alt": "React Logo",
+    "title": "Frontend",
+    "description": "Love to work with React js and CSS3. Worked in real time projects as a frontend developer."
+  },
+  {
+    "alt": "Springboot Logo",
+    "title": "Backend",
+    "description": "Worked in Spring boot and Jax-rs  frameworks along with MySQL and Junit tests for RESTful API development"
+  },
+  {
+    "alt": "Github Logo",
+    "title": "Github",
+    "description": "I have used github using both CLI and through vs code to manage my projects and I am familiar with github workflow."
+  }
+]

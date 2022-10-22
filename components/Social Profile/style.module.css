@@ -1,0 +1,9 @@
+.social-icon-container {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: max-content;
+  margin: 1rem auto;
+}

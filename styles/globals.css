@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -23,4 +22,207 @@ a {
     color: white;
     background: black;
   }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-dark-color: rgb(26, 25, 25);
+  --secondary-dark-color: #1e1e1e;
+  --primary-yellow-color: #ffc234;
+  --secondary-yellow-color: #fdcf62;
+  --primary-green-color: #4dfed1;
+  --dark-white: #ccc;
+  --secondary-white-color: #f1f1f1;
+}
+
+/*Utility classes*/
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+/* Main content*/
+.container {
+  width: min(1200px, 90%);
+  margin: auto;
+  position: relative;
+  top: 60px;
+}
+.context {
+  width: 100%;
+  position: absolute;
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.heading {
+  padding-top: 75px;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-family: "Ink Free", "Roboto Mono", Times, serif;
+  color: #ffc234;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #555;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-dark-color);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+@media (max-width: 769px) {
+  * {
+    font-size: 16px;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+.accordion__item {
+  margin-bottom: 4px;
+}
+.accordion__button {
+  cursor: pointer;
+  padding: 18px;
+  text-align: left;
+  background-color: var(--primary-dark-color);
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+}
+@media (min-width: 1024px) {
+  .accordion__button:hover {
+    background-color: rgba(38, 36, 36);
+  }
+  .cyan-on-hover:hover {
+    color: rgb(21, 247, 183);
+  }
+}
+.accordion__button:active {
+  background-color: var(--secondary-dark-color);
+}
+.cyan-on-hover:active {
+  color: rgb(21, 247, 183);
+}
+.cyan-on-hover:active + .cyan-on-hover {
+  color: rgb(21, 247, 183);
+}
+
+.accordion__panel {
+  background-color: var(--primary-dark-color);
+}
+.accordion-panel-content {
+  padding: 1rem 2rem;
+  background-color: var(--secondary-dark-color);
+}
+.accordion-panel-heading {
+  font-size: 16px;
+  color: #9ca3af;
+  background-color: var(--secondary-dark-color);
+}
+.accordion-panel-text {
+  background-color: var(--secondary-dark-color);
+  font-size: 20px;
+}
+.cyan-on-hover {
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+}
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle,
+.vertical-timeline-element-description {
+  color: #ddd;
+  background-color: var(--primary-dark-color);
+}
+.vertical-timeline-element-subtitle {
+  color: grey;
+  font-weight: 400;
+}
+.vertical-timeline-element-content-arrow {
+  border-inline-end-color: var(--primary-dark-color);
+}
+.vertical-timeline-element-content {
+  background-color: var(--primary-dark-color);
+  box-shadow: 2px 2px 6px 0px black;
+}
+.vertical-timeline-element-description {
+  font-weight: 300;
+}
+.glow {
+  animation: glow 4s infinite cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@keyframes glow {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: #33f3c3;
+  }
+
+  100% {
+    color: white;
+  }
+}
+.fa.fa-bars:active {
+  color: var(--primary-green-color);
+}
+i.fab,
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  border: 1px solid #ddd;
+  color: #ddd;
+  transition: ease-in 0.1s;
+  padding: 0.4em 0.5em;
+}
+@media (min-width: 768px) {
+  i.fa:hover,
+  i.fab:hover {
+    background-color: var(--primary-dark-color);
+    color: var(--primary-green-color);
+    border: none;
+    transform: scale(0.95);
+    cursor: pointer;
+  }
+}
+i.fa:active,
+i.fab:active {
+  color: var(--primary-green-color);
+  opacity: 0.8;
+}
+#hamburger-icon {
+  background-color: var(--primary-dark-color);
+  color: white;
+  border: none;
+}
+#hamburger-icon:active {
+  color: var(--primary-green-color);
 }
