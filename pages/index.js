@@ -1,9 +1,8 @@
-import { About } from "../Components/About/";
-import { SocialProfile } from "../Components/Social Profile/";
-import { Timeline } from "../Components/Timeline/";
-import { Projects } from "../Components/Projects/";
-import { Skills } from "../Components/Skills/";
-import { TechStack } from "../Components/TechStack/";
+import { About } from "../components/About/";
+import { Timeline } from "../components/Timeline/";
+import { Projects } from "../components/Projects/";
+import { Skills } from "../components/Skills/";
+import { TechStack } from "../components/TechStack/";
 const Home = () => {
   return (
     <>
@@ -12,7 +11,6 @@ const Home = () => {
       <Projects />
       <TechStack />
       <Skills />
-      {/* <SocialProfile /> */}
     </>
   );
 };

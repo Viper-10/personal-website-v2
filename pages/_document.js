@@ -23,7 +23,6 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
           rel="stylesheet"
         />
-        <title>Priyadharshan Ravichandran</title>
       </Head>
       <body>
         <Main />
