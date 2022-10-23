@@ -24,7 +24,7 @@ const DesktopView = () => {
     <nav className={styles["navbar"]} ref={navbarRef}>
       <div className={styles["navbar-container"]}>
         <div className={styles["logo"]} onClick={() => window?.scrollTo(0, 0)}>
-          PRIYADHARSHAN
+          PRIYADHARSHAN R
         </div>
         <ul className={styles["nav-items"]}>
           {navigationItems.map((item) => (

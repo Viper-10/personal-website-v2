@@ -33,7 +33,6 @@
   color: var(--primary-green-color);
   font-size: 1rem;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
   letter-spacing: 0.2ch;
   padding-top: 15px;
   animation: 3s glow ease-in-out infinite forwards;

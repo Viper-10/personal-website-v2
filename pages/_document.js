@@ -5,7 +5,14 @@ export default function Document() {
     <Html>
       <Head>
         <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Priyadharshan Ravichandran Website" />
+        <meta
+          name="description"
+          content="Priyadharshan Ravichandran's portfolio website, Example portfolio website, Example personal website. Viper-10 website. Viper_10 website"
+        />
+        <meta
+          name="keywods"
+          content="Priyadharshan Ravichandran website, Priyadharshan Ravichandran, personal website, example personal website, Viper-10 website, Viper_10 website"
+        />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css"
@@ -16,6 +23,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
           rel="stylesheet"
         />
+        <title>Priyadharshan Ravichandran</title>
       </Head>
       <body>
         <Main />

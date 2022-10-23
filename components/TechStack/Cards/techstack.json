@@ -2,7 +2,7 @@
   {
     "alt": "React Logo",
     "title": "Frontend",
-    "description": "Love to work with React js and CSS3. Worked in real time projects as a frontend developer."
+    "description": "Love to work with Next js and React. I've developed multiple (CSR, SSR) applications.I have experience with nx mono repos."
   },
   {
     "alt": "Springboot Logo",
@@ -12,6 +12,6 @@
   {
     "alt": "Github Logo",
     "title": "Github",
-    "description": "I have used github using both CLI and through vs code to manage my projects and I am familiar with github workflow."
+    "description": "I have used github for version control and experienced with github workflow.I have experience with CI/CD using Circle CI."
   }
 ]

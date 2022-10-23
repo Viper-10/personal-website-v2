@@ -11,7 +11,9 @@ const About = () => {
           <Image src={MyImg} alt="My img" height="300px" width="300px" />
         </div>
         <div>
-          <h1 className={styles["main-heading"]}>{"Hi! I'm Priyadharshan"}</h1>
+          <h1 className={styles["main-heading"]}>
+            {"Priyadharshan Ravichandran"}
+          </h1>
           <p className={styles["description"]}>
             Web developer based in India, experienced in frontend tech Next js,
             React, CSR, SSR. Interested in talks about frontend, Mono Repos,
@@ -19,8 +21,8 @@ const About = () => {
           </p>
           <p className={styles["description"]}>
             I have worked in Spring boot, hibernate and Jax-rs for the backend
-            and proficient in java. I also have a keen interest in competitive
-            programming and web3.
+            and {"I'm"} proficient in java. I also have a keen interest in
+            competitive programming and web3.
           </p>
           <SocialProfile />
         </div>

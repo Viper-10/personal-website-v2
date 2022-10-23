@@ -16,9 +16,7 @@
   color: white;
 }
 .card-description {
-  font-size: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.4em;
   margin-block: 1rem;
   font-weight: bold;

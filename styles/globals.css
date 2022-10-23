@@ -93,7 +93,7 @@ html {
   background: #555;
 }
 @media (max-width: 769px) {
-  * {
+  html {
     font-size: 16px;
   }
 

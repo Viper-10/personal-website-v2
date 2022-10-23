@@ -53,7 +53,7 @@ const MobileView = () => {
         }
       >
         <div className={styles["logo"]} onClick={() => window?.scrollTo(0, 0)}>
-          PRIYADHARSHAN
+          PRIYADHARSHAN R
         </div>
         <div className={styles["mobilebaricon"]}>
           <i
