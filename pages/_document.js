@@ -7,10 +7,10 @@ export default function Document() {
         <meta name="theme-color" content="#000000" />
         <meta
           name="description"
-          content="Priyadharshan Ravichandran's portfolio website, Example portfolio website, Example personal website. Viper-10 website. Viper_10 website"
+          content="Priyadharshan Ravichandran portfolio website, Example portfolio website, Example personal website. Viper-10 website. Viper_10 website"
         />
         <meta
-          name="keywods"
+          name="keywords"
           content="Priyadharshan Ravichandran website, Priyadharshan Ravichandran, personal website, example personal website, Viper-10 website, Viper_10 website"
         />
         <link

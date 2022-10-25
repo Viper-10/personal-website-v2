@@ -8,7 +8,7 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 .navbar-container {
-  width: min(1200px, 90%);
+  width: min(1500px, 90%);
   display: flex;
   margin-inline: auto;
   justify-content: space-between;

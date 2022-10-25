@@ -59,7 +59,7 @@ html {
 
 /* Main content*/
 .container {
-  width: min(1200px, 90%);
+  width: min(1500px, 90%);
   margin: auto;
   position: relative;
   top: 60px;

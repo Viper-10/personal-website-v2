@@ -8,7 +8,12 @@ const About = () => {
     <div className={styles["about"]} id="about">
       <div className={styles["profile-flex"]}>
         <div className={styles["img-wrapper"]}>
-          <Image src={MyImg} alt="My img" height="300px" width="300px" />
+          <Image
+            src={MyImg}
+            alt="Priyadharshan Ravichandran image"
+            height="300px"
+            width="300px"
+          />
         </div>
         <div>
           <h1 className={styles["main-heading"]}>
