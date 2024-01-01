@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./about.module.css";
-import MyImg from "../../assets/images/profile.jpg";
+import MyImg from "../../assets/images/profile-2.jpg";
 import { SocialProfile } from "../Social Profile";
 
 const About = () => {
@@ -11,18 +11,18 @@ const About = () => {
           <Image
             src={MyImg}
             alt="Priyadharshan Ravichandran image"
-            height="300px"
-            width="300px"
+            height="350px"
+            width="350px"
           />
         </div>
         <div>
-          <h1 className={styles["main-heading"]}>
-            {"Priyadharshan Ravichandran"}
-          </h1>
           <p className={styles["description"]}>
             Web developer based in India, experienced in frontend tech Next js,
-            React, CSR, SSR. Interested in talks about frontend, Mono Repos,
-            CDNs.
+            React, CSR, SSR. Interested in talks about frontend, Mono Repos and
+            System Design. I am a Member of Technical Staff (MTS) in DevRev,
+            specializing in frontend development. with a focus on creating
+            seamless and captivating user interfaces and functional web
+            experiences.
           </p>
           <p className={styles["description"]}>
             I have worked in Spring boot, hibernate and Jax-rs for the backend
