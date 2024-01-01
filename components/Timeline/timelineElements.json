@@ -1,26 +1,59 @@
 [
   {
     "id": 0,
-    "title": "Frontend Developer Intern",
+    "title": "Member of Technical Staff",
     "workplace": "DevRev",
     "location": "- Chennai, Tamil Nadu",
-    "date": "September 2022 - Present",
-    "description": "Working on improving the UX and UI of DevRev CRM.",
+    "date": "June 2023 - Present",
+    "bulletpoints": [
+      "2nd highest contributor to the UI codebase amongst 40 other developers in 2023-2024 calendar year with 1581 contributions and 300 PR commits",
+      "Developed several features in the DevRev OneCRM including features to handle the entire Customer billing and invoicing process, including the ability to create and send invoices, receive payments, and manage SKUs",
+      "Developed scripts to automate the process of tracking and reporting CI pipeline failures, which reduced the time taken to identify and fix pipeline failures by 50%, additionally metrics such as MTTR, MTBF, success percentage were also tracked and reported"
+    ],
     "type": "work"
   },
   {
     "id": 1,
+    "title": "Frontend Developer Intern",
+    "workplace": "DevRev",
+    "location": "- Chennai, Tamil Nadu",
+    "date": "September 2022 - May 2023",
+    "bulletpoints": [
+      "Worked predominantly in developing the frontend for the Growth part of the application including Commerce, Invoicing, and Payments.",
+      "Introduced Invoice payments by integrating Stripe with the application",
+      "Significantly contributed to optimizing the mobile browser experience by improving responsiveness and enhancing user interaction on smaller screens, making the app more accessible and thereby enabling the app to be used on mobile browsers which previously was a huge limitation."
+    ],
+    "type": "work",
+    "stack": [
+      "Next js",
+      "React js",
+      "Tailwind css",
+      "Typescript",
+      "React-query",
+      "React-hook-form",
+      "React-testing-library",
+      "Jest",
+      "Cypress",
+      "Storybook"
+    ]
+  },
+  {
+    "id": 2,
     "title": "Summer Intern",
     "workplace": "Zoho Corporation",
     "location": "- Erode, Tamil Nadu",
-    "description": "Built a full stack bank application web app using Jax-rs and Angular including OOPS and Multi-threading.",
-    "stack": ["Jax-rs", "java", "Angular"],
+    "description": "Built a full stack bank application web app using Jax-rs, SQL and Angular including OOPS and Multi-threading.",
+    "stack": [
+      "Jax-rs",
+      "java",
+      "Angular"
+    ],
     "date": "May 2022 - June 2022",
     "type": "work"
   },
   {
-    "id": 2,
-    "title": "Frontend Developer",
+    "id": 3,
+    "title": "Frontend Developer Intern",
     "workplace": "Janus Softwares",
     "location": "- Thane, Maharashtra(Remote)",
     "date": "March 2022 - June 2022",
@@ -41,16 +74,16 @@
     "type": "work"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "BE Computer Science",
     "workplace": "Kumaraguru College of Technology",
     "location": "- Coimbatore, Tamil Nadu",
-    "description": "At present in my 4th year with a CGPA of 9.38 out of 10.",
-    "date": "September 2019",
+    "description": "I graduated with a B.E. in Computer Science with a CGPA of 9.31. I placed 4th in the open coding competition conducted by the college in YUGAM 2020 in my first year, and subsequently won the first place in the intra-college problem-solving completing in my second year. Thereafter I conducted 3 coding competitions and a web development hackathon.",
+    "date": "September 2019 - April 2023",
     "type": "school"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "12th Grade",
     "workplace": "Amrita Vidyalayam",
     "location": "Coimbatore, Tamil Nadu",
@@ -58,7 +91,7 @@
     "type": "school"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "10th Grade",
     "workplace": "Amrita Vidyalayam",
     "location": "Coimbatore, Tamil Nadu",

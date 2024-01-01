@@ -19,7 +19,6 @@ const Timeline = () => {
         date={element.date}
         dateClassName="date"
         iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-        // icon={isWorkIcon ? <Work /> : <School />}
         icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
       >
         <h3 className="vertical-timeline-element-title">{element.title}</h3>

@@ -8,7 +8,7 @@ import styles from "./style.module.css";
 import Image from "next/image";
 import ArrowDiagonalLogo from "../../../assets/icons/ArrowDiagonalLogo";
 
-const Project = ({ name, link, description, category, stack }) => {
+const Project = ({ name, link, description, category, stack, note }) => {
   return (
     <AccordionItem key={name} uuid={link}>
       <AccordionItemHeading>
@@ -32,11 +32,17 @@ const Project = ({ name, link, description, category, stack }) => {
             <div className="accordion-panel-heading">Description</div>
             <p className="accordion-panel-text">{description}</p>
           </div>
+
           <div className="accordion-panel-content">
             <div className="accordion-panel-heading">Tech Stack</div>
             <p className="accordion-panel-text">{stack}</p>
           </div>
         </div>
+        {note && (
+          <div className="accordion-panel-content">
+            <div className="accordion-panel-heading">Note: {note}</div>
+          </div>
+        )}
       </AccordionItemPanel>
     </AccordionItem>
   );
