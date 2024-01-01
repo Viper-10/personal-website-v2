@@ -1,14 +1,14 @@
 .area {
   background: linear-gradient(to left, var(--primary-green-color), black);
   width: 100%;
-  height: 7300px;
+  height: 7650px;
 }
 .circles {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 7300px;
+  height: 7650px;
   overflow: hidden;
 }
 @media (min-width: 1024px) {
